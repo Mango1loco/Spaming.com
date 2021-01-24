@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spam</title>
+	<link rel="shortcut icon" type="image/x-icon" href="logito.ico">
+
+	</head>
+	<body onkeydown="letra()" onerror="">
+		<meta charset="utf-8">
+		<center><h1 id="numero">0</h1>
+			<h3>Hola Soy El Creador De Este Sitio Web.</h3>
+			<br><h3>Presiona Espacio O Space Bar Para Conseguir Puntos.</h3>
+    <h4>Me Llamo Juan Carlos Y Tengo 10 Años De Edad.Este Es Un Sitio Web Creado Con Javascript,Html y Css.</h4><p>Espero Que Te Guste Mi Sitio Web</p>
+		</center>
+		 
+	</body>
+	<script type="text/javascript">
+		var x = 0;
+	document.onkeydown = checkKey;
+ function checkKey(e) {
+
+    e = e || window.event;
+	  
+			if (e.keyCode == '32') {
+        document.getElementById("numero").innerHTML = x += 1;
+    }
+                   
+    }
+	   
+	</script>
+
+
+	<style type="text/css">
+		#numero {
+			font-size: 240px;
+			margin-bottom: 0;
+
+ 
+		}
+
+		body {
+			   font-family: sans-serif;
+		}
+	</style>
+</html>
